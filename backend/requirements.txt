@@ -1,3 +1,10 @@
 fastapi
 uvicorn==0.18.1
 
+# for databases
+
+sqlalchemy
+psycopg2
+
+# for env var
+python-dotenv
