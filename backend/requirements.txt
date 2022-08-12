@@ -18,5 +18,5 @@ passlib[bcrypt]
 # for testing
 pytest
 requests
-
+python-jose
 python-multipart

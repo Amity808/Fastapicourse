@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from core.config import settings
 from db.session import engine
 from db.base import Base
+
 from apis.base import api_router
 
 
@@ -22,7 +23,3 @@ def start_application():
 
 app = start_application()
 
-
-@app.get('/')
-def hello_api():
-    return {"detail": 'same here'}
